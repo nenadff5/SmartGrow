@@ -1,0 +1,67 @@
+{
+  "common": {
+    "errorOccurred": "Dogodila se pogreška!",
+    "requestSuccessful": "Zahtjev uspješno odrađen"
+  },
+  "auth": {
+    "email": {
+      "invalidFormat": "Mail nije ispravan!",
+      "sent": "Email poslan"
+    },
+    "user": {
+      "notFound": "Korisnik ne postoji!",
+      "updated": "Profil uspješno ažuriran",
+      "created": "Korisnički račun kreiran"
+    },
+    "password": {
+      "incorrect": "Lozinka je netočna!",
+      "mismatch": "Lozinke se ne poklapaju!",
+      "invalidFormat": "Neispravna lozinka unesena!",
+      "updated": "Lozinka ažurirana"
+    },
+    "resetCode": {
+      "mismatch": "Kodovi za resetiranje se ne poklapaju!",
+      "expired": "Kod za resetiranje je istekao!",
+      "notFound": "Kod za resetiranje nije pronađen!"
+    }
+  },
+  "profile": {
+    "editProfile": {
+      "successfullyEdited": "Profil uspješno uređen"
+    }
+  },
+  "rooms": {
+    "success": {
+      "created": "Soba stvorena",
+      "updated": "Soba ažurirana",
+      "deleted": "Soba uklonjena"
+    },
+    "error": {
+      "invalidInput": "Nevažeći podaci uneseni!",
+      "notFound": "Soba nije pronađena!"
+    }
+  },
+  "plants": {
+    "success": {
+      "created": "Biljka stvorena",
+      "updated": "Biljka ažurirana",
+      "deleted": "Biljka uklonjena"
+    },
+    "error": {
+      "invalidInput": "Nevažeći podaci uneseni!",
+      "notFound": "Biljka nije pronađena!",
+      "invalidRoomIdFormat": "Nevažeći ID sobe unesen!"
+    }
+  },
+  "notes": {
+    "success": {
+      "created": "Bilješka stvorena",
+      "updated": "Bilješka ažurirana",
+      "deleted": "Bilješka uklonjena"
+    },
+    "error": {
+      "invalidInput": "Nevažeći podaci uneseni!",
+      "notFound": "Bilješka nije pronađena!"
+    }
+  }
+}

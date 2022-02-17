@@ -1,0 +1,308 @@
+{
+  "onboarding": {
+    "buttons": {
+      "done": "Gotovo",
+      "skip": "Preskoči",
+      "next": "Dalje"
+    },
+    "titles": {
+      "title1": "Organizirajte i nadgledajte svoj pametni vrt",
+      "title2": "Organizirajte i nadgledajte svoj pametni vrt",
+      "title3": "Organizirajte i nadgledajte svoj pametni vrt"
+    },
+    "subtitles": {
+      "subtitle1": "Description. Say something cool",
+      "subtitle2": "Other cool stuff",
+      "subtitle3": "I'm already out of descriptions. Lorem ipsum bla bla bla"
+    }
+  },
+  "login": {
+    "welcome": "Dobrodošli!",
+    "signToContinue": "Prijavite se da biste nastavili",
+    "forgotPassword": "Zaboravili ste lozinku?",
+    "dontHaveAccount": "Nemate račun?",
+    "goRegister": "Registrirajte se",
+    "signIn": "Prijava"
+  },
+  "register": {
+    "title": "Registracija",
+    "doRegister": "Registracija",
+    "alreadyHaveAnAccount": "Već imate korisnički račun?",
+    "form": {
+      "name": {
+        "placeholder": "John Doe",
+        "label": "Ime i prezime",
+        "required": "Ime je obavezno!"
+      }
+    },
+    "login": "Prijavite se"
+  },
+  "forgotPassword": {
+    "title": "Zaboravili ste lozinku",
+    "sendEmailBtn": "Pošaljite kod",
+    "alreadyReceived": "Već ste primili potvrdni kod?",
+    "inputCode": "Unesite kod"
+  },
+  "resetPassword": {
+    "title": "Resetiranje lozinke",
+    "submit": "Resetiraj lozinku",
+    "form": {
+      "resetCode": {
+        "placeholder": "Na primjer: 1234",
+        "label": "Verifikacijski kod"
+      },
+      "newPassword": {
+        "placeholder": "*******",
+        "label": "Nova lozinka"
+      },
+      "reNewPassword": {
+        "placeholder": "*******",
+        "label": "Potvrdite novu lozinku"
+      }
+    }
+  },
+  "rooms": {
+    "title": "Sobe",
+    "btnEditRoom": "Uredi",
+    "noRooms": "Nemate niti jednu sobu. Molimo dodajte jednu sobu.",
+    "card": {
+      "plants": "biljki",
+      "notifications": "obavijesti",
+      "notes": "bilješki"
+    },
+    "editRoom": {
+      "title": "Uredite sobu",
+      "btnEditRoom": "Spremi"
+    },
+    "newRoom": {
+      "title": "Dodajte sobu",
+      "btnNewRoom": "Dodajte sobu",
+      "form": {
+        "name": {
+          "placeholder": "Ime vaše sobe",
+          "label": "Ime sobe",
+          "tooLong": "Ime sobe mora imati 50 znakova ili manje",
+          "required": "Ime sobe je obavezno!"
+        },
+        "image": {
+          "pickFromTitle": "Odaberite izvor slike",
+          "pickFromText": "Sliku možete učitati iz pohrane ili uslikati kamerom.",
+          "pickFromGallery": "Galerija",
+          "pickFromCamera": "Kamera"
+        }
+      }
+    },
+    "deleteRoom": {
+      "button": "Obriši",
+      "areYouSureTitle": "Jeste li sigurni?",
+      "areYouSureText": "Ako pritisnete 'Da', trajno ćete obrisati navedenu sobu.",
+      "thereArePlantsInRoomTitle": "Neuspješno brisanje sobe",
+      "thereArePlantsInRoomText": "Imate biljke u odabranoj sobi.\nUklonite biljke iz navedene sobe kako biste ju mogli obrisati."
+    }
+  },
+  "plants": {
+    "title": "Biljke",
+    "noPlants": "Nemate niti jednu dodanu biljku. Molimo dodajte jednu biljku.",
+    "noRooms": "Nemate niti jednu dodanu sobu. Molimo dodajte jednu sobu.",
+    "newPlant": {
+      "title": "Nova biljka",
+      "btnNewPlant": "Dodajte biljku",
+      "form": {
+        "name": {
+          "placeholder": "Ime vaše biljke",
+          "label": "Ime biljke",
+          "tooLong": "Ime biljke mora imati 50 znakova ili manje",
+          "required": "Ime biljke je obavezno!"
+        },
+        "room": {
+          "placeholder": "Soba u kojoj želite biljku",
+          "label": "Soba",
+          "required": "Sobe je obavezna!"
+        },
+        "image": {
+          "pickFromTitle": "Odaberite izvor slike",
+          "pickFromText": "Sliku možete učitati iz pohrane ili uslikati kamerom.",
+          "pickFromGallery": "Galerija",
+          "pickFromCamera": "Kamera"
+        }
+      }
+    },
+    "editPlant": {
+      "title": "Uredite biljku",
+      "btnEditPlant": "Spremi"
+    },
+    "deletePlant": {
+      "button": "Obrišite biljku",
+      "areYouSureTitle": "Jeste li sigurni?",
+      "areYouSureText": "Ako pritisnete 'Da', trajno ćete obrisati navedenu biljku."
+    },
+    "plantDetails": {
+      "title": "Detalji biljke",
+      "btnEditPlant": "Uredite biljku",
+      "form": {
+        "name": {
+          "label": "Ime biljke"
+        },
+        "room": {
+          "label": "Ime sobe"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Obavijesti",
+      "noNotifications": "Nemate zakazanih obavijesti",
+      "btnNewNotification": "Dodajte zakazanu obavijest",
+      "modalTitle": "Odaberite vremenski raspon obavijesti",
+      "modalText": "Odaberite koliko često želite primati obavijesti da zalijete biljku",
+      "chooseTime": "Odaberite vrijeme obavijesti",
+      "confirmTime": "Potvrdite",
+      "remindAtNDays": "Podsjeti me na sljedećim danima: ",
+      "remindAtDay": "Podsjeti me na ovaj dan: ",
+      "remindAt": "u ",
+      "closeModal": "Odustani",
+      "notificationTitle": "Podsjetnik za biljku",
+      "notificationMessage": {
+        "placeholder": "Nemoj zaboraviti zaliti biljku",
+        "label": "Poruka obavijesti"
+      }
+    },
+    "notes": {
+      "title": "Bilješke",
+      "noNotes": "Nemate niti jednu bilješku. Bilješku možete dodati putem gumba ispod.",
+      "btnNewNote": "Dodajte bilješku",
+      "modal": {
+        "title": "Odaberite poruku vaše bilješke"
+      },
+      "form": {
+        "text": {
+          "label": "Tekst vaše bilješke",
+          "placeholder": "U 15:30 biljka je bila zalivena",
+          "required": "Poruka bilješke je obavezna!"
+        }
+      }
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "form": {
+      "name": {
+        "label": "John Doe",
+        "tooLong": "Ime i prezime moraju imati 40 ili manje znakova",
+        "required": "Ime i prezime je obavezno!"
+      },
+      "image": {
+        "pickFromTitle": "Odaberite izvor slike",
+        "pickFromText": "Sliku možete učitati iz pohrane ili uslikati kamerom.",
+        "pickFromGallery": "Galerija",
+        "pickFromCamera": "Kamera"
+      }
+    },
+    "editProfile": {
+      "title": "Uredi profil",
+      "fullName": "Ime i prezime",
+      "email": "Email",
+      "changesAfter": "Promjene će biti odrađene nakon što se odjavite"
+    },
+    "changePassword": {
+      "title": "Promijeni lozinku",
+      "currentPassword": "Trenutna lozinka",
+      "newPassword": "Nova lozinka",
+      "confirmPassword": "Potvrdi lozinku",
+      "successfullyChanged": "Lozinka uspješno promjenjena"
+    },
+    "changeLanguage": {
+      "title": "Promijeni jezik",
+      "form": {
+        "lang": {
+          "required": "Aplikacije je obavezan!",
+          "label": "Aplikacije"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Obavijesti"
+    },
+    "website": {
+      "title": "Web stranica"
+    },
+    "logout": {
+      "title": "Odjava"
+    }
+  },
+  "imagePicker": {
+    "common": {
+      "warning": "Upozorenje",
+      "close": "Zatvori",
+      "settings": "Postavke"
+    },
+    "camera": {
+      "warningMessage": "Čini se da Smart Growu niste dozvolili pristup vašoj kameri, ukoliko ju želite koristiti, omogućite joj pristup u postavkama"
+    },
+    "photoLibrary": {
+      "warningMessage": "Čini se da Smart Growu niste dozvolili pristup vašem albumu s fotografijama, ukoliko ga želite koristiti, omogućite mu pristup u postavkama"
+    }
+  },
+  "common": {
+    "permissions": {
+      "camera": {
+        "title": "Dozvole kamere",
+        "text": "Čini se da niste dopustili pristup kameri aplikaciji Smart Grow. Da biste koristili kameru, morate to dopustiti u postavkama"
+      },
+      "gallery": {
+        "title": "Dozvole galerije",
+        "text": "Čini se da niste dopustili pristup galeriji aplikaciji Smart Grow. Da biste koristili galeriju, morate to dopustiti u postavkama"
+      }
+    },
+    "toast": {
+      "errorOccurred": "Dogodila se pogreška!"
+    },
+    "modal": {
+      "yes": "Da",
+      "cancel": "Odustani",
+      "ok": "OK",
+      "save": "Spremi",
+      "goToSettings": "Otvorite postavke",
+      "close": "Zatvori"
+    },
+    "validation": {
+      "emptyEmail": "Molimo unesite email",
+      "emptyPassword": "Molimo unesite lozinku",
+      "invalidMail": "Molimo unesite važeći mail",
+      "passwordLength": "Lozinka mora sadržavati barem 8 znakova",
+      "fullNameLength": "Ime mora sadržavati barem 5 znakova",
+      "passwordsDontMatch": "Lozinke se ne podudaraju",
+      "passwordFormat": "Lozinka mora sadržavati minimalno 8 znakova od kojih barem jedno veliko slovo, jedno malo slovo, jedan broj i jedan specijalan znak"
+    },
+    "forms": {
+      "email": {
+        "label": "E-pošta",
+        "placeholder": "primjer@primjer.com"
+      },
+      "password": {
+        "label": "Lozinka",
+        "placeholder": "*******",
+        "confirmLabel": "Potvrdite lozinku"
+      }
+    },
+    "weekdays": {
+      "short": {
+        "1": "PON",
+        "2": "UTO",
+        "3": "SRI",
+        "4": "ČET",
+        "5": "PET",
+        "6": "SUB",
+        "7": "NED"
+      },
+      "long": {
+        "1": "ponedjeljak",
+        "2": "utorak",
+        "3": "srijeda",
+        "4": "četvrtak",
+        "5": "petak",
+        "6": "subota",
+        "7": "nedjelja"
+      }
+    }
+  }
+}

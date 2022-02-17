@@ -1,0 +1,62 @@
+{
+  "common": {
+    "errorOccurred": "An error occurred!",
+    "requestSuccessful": "Request successfully completed"
+  },
+  "auth": {
+    "email": {
+      "invalidFormat": "Email is invalid!",
+      "sent": "Email sent"
+    },
+    "user": {
+      "notFound": "User not found!",
+      "updated": "Profile successfully updated",
+      "created": "Account created"
+    },
+    "password": {
+      "incorrect": "Password is incorrect!",
+      "mismatch": "Passwords don't match!",
+      "invalidFormat": "Invalid password format!",
+      "updated": "Password updated"
+    },
+    "resetCode": {
+      "mismatch": "Reset codes do not match!",
+      "expired": "Reset code has expired!",
+      "notFound": "Reset code not found!"
+    }
+  },
+  "rooms": {
+    "success": {
+      "created": "Room created",
+      "updated": "Room updated",
+      "deleted": "Room deleted"
+    },
+    "error": {
+      "invalidInput": "Invalid data entered!",
+      "notFound": "Room not found!"
+    }
+  },
+  "plants": {
+    "success": {
+      "created": "Plant created",
+      "updated": "Plant updated",
+      "deleted": "Plant deleted"
+    },
+    "error": {
+      "invalidInput": "Invalid data entered!",
+      "notFound": "Plant not found!",
+      "invalidRoomIdFormat": "Invalid room ID entered!"
+    }
+  },
+  "notes": {
+    "success": {
+      "created": "Note created",
+      "updated": "Note updated",
+      "deleted": "Note deleted"
+    },
+    "error": {
+      "invalidInput": "Invalid data entered!",
+      "notFound": "Note not found!"
+    }
+  }
+}
