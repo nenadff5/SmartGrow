@@ -1,0 +1,308 @@
+{
+  "onboarding": {
+    "buttons": {
+      "done": "Done",
+      "skip": "Skip",
+      "next": "Next"
+    },
+    "titles": {
+      "title1": "Organize and Monitor Your Smart Garden",
+      "title2": "Organize and Monitor Your Smart Garden",
+      "title3": "Organize and Monitor Your Smart Garden"
+    },
+    "subtitles": {
+      "subtitle1": "Description. Say something cool",
+      "subtitle2": "Other cool stuff",
+      "subtitle3": "I'm already out of descriptions. Lorem ipsum bla bla bla"
+    }
+  },
+  "login": {
+    "welcome": "Welcome!",
+    "signToContinue": "Sign in to continue",
+    "forgotPassword": "Forgot password?",
+    "dontHaveAccount": "Don't have an account?",
+    "goRegister": "Register",
+    "signIn": "Sign in"
+  },
+  "register": {
+    "title": "Register",
+    "doRegister": "Register",
+    "alreadyHaveAnAccount": "Already have an account?",
+    "form": {
+      "name": {
+        "placeholder": "John Doe",
+        "label": "Full name",
+        "required": "Name is required!"
+      }
+    },
+    "login": "Login"
+  },
+  "forgotPassword": {
+    "title": "Password reset",
+    "sendEmailBtn": "Send confirmation code",
+    "alreadyReceived": "Already received the confirmation code?",
+    "inputCode": "Input code"
+  },
+  "resetPassword": {
+    "title": "Password reset",
+    "submit": "Reset password",
+    "form": {
+      "resetCode": {
+        "placeholder": "For example: 1234",
+        "label": "Verification code"
+      },
+      "newPassword": {
+        "placeholder": "*******",
+        "label": "New password"
+      },
+      "reNewPassword": {
+        "placeholder": "*******",
+        "label": "Confirm new password"
+      }
+    }
+  },
+  "rooms": {
+    "title": "Rooms",
+    "btnEditRoom": "Edit",
+    "noRooms": "You don't have any rooms added. Please add a new room.",
+    "card": {
+      "plants": "plants",
+      "notifications": "notifications",
+      "notes": "notes"
+    },
+    "editRoom": {
+      "title": "Edit room",
+      "btnEditRoom": "Save"
+    },
+    "newRoom": {
+      "title": "Add room",
+      "btnNewRoom": "Add room",
+      "form": {
+        "name": {
+          "placeholder": "Your room name",
+          "label": "Room name",
+          "tooLong": "Room name has to be 50 or less characters long",
+          "required": "Room name is required!"
+        },
+        "image": {
+          "pickFromTitle": "Choose an image source",
+          "pickFromText": "You can pick the picture from gallery or take it with your camera.",
+          "pickFromGallery": "Gallery",
+          "pickFromCamera": "Camera"
+        }
+      }
+    },
+    "deleteRoom": {
+      "button": "Delete",
+      "areYouSureTitle": "Are you sure?",
+      "areYouSureText": "If you press 'Yes', you will permanently delete this room.",
+      "thereArePlantsInRoomTitle": "Error deleting the room",
+      "thereArePlantsInRoomText": "There are plants in the chosen room.\nRemove the plants from the room and you will be able to delete the room."
+    }
+  },
+  "plants": {
+    "title": "Plants",
+    "noPlants": "You don't have any plants added. Please add a new plant.",
+    "noRooms": "You don't have any rooms added. Please add a new room.",
+    "newPlant": {
+      "title": "New plant",
+      "btnNewPlant": "Add plant",
+      "form": {
+        "name": {
+          "placeholder": "Name of your plant",
+          "label": "Plant name",
+          "tooLong": "Plant name has to be 50 or less characters long",
+          "required": "Plant name is required!"
+        },
+        "room": {
+          "placeholder": "Room in which you want to save the plant",
+          "label": "Room",
+          "required": "Room is required!"
+        },
+        "image": {
+          "pickFromTitle": "Choose an image source",
+          "pickFromText": "You can pick the picture from gallery or take it with your camera.",
+          "pickFromGallery": "Gallery",
+          "pickFromCamera": "Camera"
+        }
+      }
+    },
+    "editPlant": {
+      "title": "Edit plant",
+      "btnEditPlant": "Save"
+    },
+    "deletePlant": {
+      "button": "Delete plant",
+      "areYouSureTitle": "Are you sure?",
+      "areYouSureText": "If you press 'Yes', you will permanently delete this plant."
+    },
+    "plantDetails": {
+      "title": "Plant details",
+      "btnEditPlant": "Edit plant",
+      "form": {
+        "name": {
+          "label": "Plant name"
+        },
+        "room": {
+          "label": "Room name"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "noNotifications": "There are no scheduled notifications",
+      "btnNewNotification": "Add scheduled notification",
+      "modalTitle": "Choose scheduling method",
+      "modalText": "Choose how frequently you want to get notified to water the plant",
+      "chooseTime": "Choose notification time",
+      "confirmTime": "Confirm",
+      "remindAtNDays": "Remind me at these days: ",
+      "remindAtDay": "Remind me on this day: ",
+      "remindAt": "at ",
+      "closeModal": "Cancel",
+      "notificationTitle": "Reminder for plant",
+      "notificationMessage": {
+        "placeholder": "Don't forget to water the plant",
+        "label": "Notification message"
+      }
+    },
+    "notes": {
+      "title": "Notes",
+      "noNotes": "You don't have any notes. A note can be added via button below.",
+      "btnNewNote": "Add note",
+      "modal": {
+        "title": "Choose your notes' message"
+      },
+      "form": {
+        "text": {
+          "label": "Your notes' message",
+          "placeholder": "At 15:30 I watered this plant",
+          "required": "Notes' message is required!"
+        }
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "form": {
+      "name": {
+        "label": "John Doe",
+        "tooLong": "Name has to be 40 or less characters",
+        "required": "Name is required!"
+      },
+      "image": {
+        "pickFromTitle": "Choose an image source",
+        "pickFromText": "You can pick the picture from gallery or take it with your camera.",
+        "pickFromGallery": "Gallery",
+        "pickFromCamera": "Camera"
+      }
+    },
+    "editProfile": {
+      "title": "Edit profile",
+      "fullName": "Full name",
+      "email": "Email",
+      "changesAfter": "Changes will be applied after you logout"
+    },
+    "changePassword": {
+      "title": "Change password",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "successfullyChanged": "Password successfully changed"
+    },
+    "changeLanguage": {
+      "title": "Change language",
+      "form": {
+        "lang": {
+          "required": "Language is required!",
+          "label": "Language"
+        }
+      }
+    },
+    "notifications": {
+      "title": "Notifications"
+    },
+    "website": {
+      "title": "Website"
+    },
+    "logout": {
+      "title": "Log out"
+    }
+  },
+  "imagePicker": {
+    "common": {
+      "warning": "Warning",
+      "close": "Close",
+      "settings": "Settings"
+    },
+    "camera": {
+      "warningMessage": "It looks like you did not allow Smart Grow to use your photo library, in order to use it allow it in your settings"
+    },
+    "photoLibrary": {
+      "warningMessage": "It looks like you did not allow Smart Grow to use your camera, in order to use it allow it in your settings"
+    }
+  },
+  "common": {
+    "permissions": {
+      "camera": {
+        "title": "Camera permissions",
+        "text": "It looks like you did not allow Smart Grow to use your camera. In order to use your camera, allow it in your settings"
+      },
+      "gallery": {
+        "title": "Gallery permissions",
+        "text": "It looks like you did not allow Smart Grow to use your photo library. In order to use your photo library allow it in your settings"
+      }
+    },
+    "toast": {
+      "errorOccurred": "An error occurred!"
+    },
+    "modal": {
+      "yes": "Yes",
+      "cancel": "Cancel",
+      "ok": "OK",
+      "save": "Save",
+      "goToSettings": "Open settings",
+      "close": "Close"
+    },
+    "validation": {
+      "emptyEmail": "Please enter email",
+      "emptyPassword": "Please enter password",
+      "invalidMail": "Please enter valid email",
+      "passwordLength": "Password must have at least 8 characters",
+      "fullNameLength": "Name must have at least 5 characters",
+      "passwordsDontMatch": "Passwords do not match",
+      "passwordFormat": "Password must contain at least 8 characters, including one uppercase, one lowercase, one number and one special character"
+    },
+    "forms": {
+      "email": {
+        "label": "Email",
+        "placeholder": "example@example.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "*******",
+        "confirmLabel": "Confirm password"
+      }
+    },
+    "weekdays": {
+      "short": {
+        "1": "MON",
+        "2": "TUE",
+        "3": "WED",
+        "4": "THU",
+        "5": "FRI",
+        "6": "SAT",
+        "7": "SUN"
+      },
+      "long": {
+        "1": "monday",
+        "2": "tuesday",
+        "3": "wednesday",
+        "4": "thursday",
+        "5": "friday",
+        "6": "saturday",
+        "7": "sunday"
+      }
+    }
+  }
+}
