@@ -1,0 +1,2 @@
+# SmartGrow
+Project for hackathon.
