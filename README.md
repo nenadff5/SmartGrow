@@ -13,7 +13,7 @@ SmartGrow is a mobile application that allows users to lead a journal of plant g
 ## How it works
 We built fully scalable and reliable Azure cloud based solution, built on serverless concept. Application data is stored in serverless SQL database, and accessed via Azure Functions which allows us to scale this solution based on user requests. Mobile application is built with React Native and optimised for both: Android and iOS devices. With the mobile application users can take pictures and store them as NFT tokens.
 
-![Architecture overview](https://github.com/nenadff5/SmartGrow/blob/main/screenshots/architecture-smartgrow.png)
+![Architecture overview](https://github.com/nenadff5/SmartGrow/blob/main/screenshots/architecture-smartgrow-updated.png)
 
 We use Mintbase to allow users to mint their pictures, and we save them on Crust decentralised storage.
 
