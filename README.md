@@ -17,3 +17,6 @@ We built fully scalable and reliable Azure cloud based solution, built on server
 
 We use Mintbase to allow users to mint their pictures, and we save them on Crust decentralised storage.
 
+Application will soon be available on Google and Apple app store. We hope you will find it interesting, and that we will see many beautiful flowers and other plants you grow in this app.
+
+Stay tuned for updates!
