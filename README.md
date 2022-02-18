@@ -19,4 +19,4 @@ We use Mintbase to allow users to mint their pictures, and we save them on Crust
 
 Application will soon be available on Google and Apple app store. We hope you will find it interesting, and that we will see many beautiful flowers and other plants you grow in this app.
 
-Stay tuned for the updates!
+Stay tuned for updates!
