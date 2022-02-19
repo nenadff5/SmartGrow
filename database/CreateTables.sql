@@ -44,6 +44,26 @@ CREATE TABLE [Notes](
         [ID] ASC
     ) WITH (IGNORE_DUP_KEY = OFF)
 )
+GO
+
+CREATE TABLE [Statistic] (
+    [plantsCount] int NOT NULL,
+    [usersCounts] int NOT NULL,
+    [roomsCount] int NOT NULL,
+    [notificationsCount] int NOT NULL 
+)
+GO
+
+CREATE TABLE [ResetCodes] (
+    [ID] int IDENTITY NOT NULL,
+    [resetCode] int NOT NULL,
+    [expiry] int NOT NULL,
+    [userID] int NOT NULL,
+    CONSTRAINT [PK_ResetCodes] PRIMARY KEY CLUSTERED
+    (
+        [ID] ASC
+    ) WITH (IGNORE_DUP_KEY = OFF)
+)
 
 GO
 ALTER TABLE [Rooms] WITH CHECK ADD CONSTRAINT [Rooms_fk0] FOREIGN KEY ([userID]) REFERENCES [Users]([ID])
@@ -60,6 +80,13 @@ GO
 
 ALTER TABLE [Notes] WITH CHECK ADD CONSTRAINT [Notes_fk0] FOREIGN KEY ([plantID]) REFERENCES [Plants]([ID])
 ON UPDATE CASCADE
+ON DELETE CASCADE
 GO
 ALTER TABLE [Notes] CHECK CONSTRAINT [Notes_fk0]
+GO
+
+ALTER TABLE [ResetCodes] WITH CHECK ADD CONSTRAINT [ResetCodes_fk0] FOREIGN KEY ([userID]) REFERENCES [Users]([ID])
+ON UPDATE CASCADE
+GO
+ALTER TABLE [ResetCodes] CHECK CONSTRAINT [ResetCodes_fk0]
 GO
