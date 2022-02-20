@@ -5,7 +5,7 @@ CREATE TABLE [Users](
     [password] NVARCHAR(100) NOT NULL,
     [nearWalletID] NVARCHAR(64) NULL UNIQUE,
     [crustWalletID] NVARCHAR(128) NULL UNIQUE,
-    [mintbaseStorewID] NVARCHAR(128) NULL UNIQUE,
+    [mintbaseStoreID] NVARCHAR(128) NULL UNIQUE,
     CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED
     (
         [ID] ASC
