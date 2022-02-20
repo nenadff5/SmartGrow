@@ -3,6 +3,9 @@ CREATE TABLE [Users](
     [name] NVARCHAR(60) NOT NULL,
     [email] NVARCHAR(60) NOT NULL UNIQUE,
     [password] NVARCHAR(100) NOT NULL,
+    [nearWalletID] NVARCHAR(64) NULL UNIQUE,
+    [crustWalletID] NVARCHAR(128) NULL UNIQUE,
+    [mintbaseStorewID] NVARCHAR(128) NULL UNIQUE,
     CONSTRAINT [PK_Users] PRIMARY KEY CLUSTERED
     (
         [ID] ASC
